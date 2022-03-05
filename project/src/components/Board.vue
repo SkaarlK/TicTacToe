@@ -83,7 +83,7 @@ export default {
         return true;
       }
       if (
-        this.board[1][0] === this.player
+        this.board[2][0] === this.player
         && this.board[1][1] === this.player
         && this.board[0][2] === this.player
       ) {
